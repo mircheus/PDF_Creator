@@ -6,8 +6,6 @@ from reportlab.lib.units import inch, cm
 from functions import pdf_gen
 from main_config import convert_time
 
-# report_num = input('Введите номер отчета для генерации PDF\n')
-
 db = SQLighter(database) # создаем объект БД(подключаемся к БД)
 b = True
 while b != False: # Цикл для "бесконечного" меню
